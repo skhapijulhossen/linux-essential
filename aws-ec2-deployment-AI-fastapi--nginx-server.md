@@ -63,7 +63,7 @@
       Group=ubuntu
       WorkingDirectory=/home/ubuntu/AI_attendance
       ExecStart=/opt/tensorflow/bin/uvicorn server:app 
-
+   ## Then run below commands
       $ sudo nginx -t
       $ sudo systemctl daemon-reload
       $ sudo systemctl start server
