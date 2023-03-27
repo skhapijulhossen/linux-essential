@@ -11,5 +11,6 @@
     echo AIRFLOW_HOME
     sudo pip3 install apache-airflow typing_extensions
     airflow db init
+    airflow users create --username happy --firstname SK --lastname  HOSSEN --role Admin --email skhapijulhossen@gmail.com
 # Start Server
     airflow webserver -p 8080
