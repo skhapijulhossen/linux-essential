@@ -1,0 +1,15 @@
+# Update System
+        sudo apt update
+
+   10  sudo apt install build-essential
+   11  sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget libsqlite3-dev
+   12  cd dev/
+ 
+   14  wget https://www.python.org/ftp/python/3.10.7/Python-3.10.7.tgz
+   15  tar -xf Python-3.10.7.tgz 
+   17  cd Python-3.10.7/
+
+   19  ./configure --enable-loadable-sqlite-extensions --enable-optimizations
+   20  sudo make install
+   21  python3 --version
+
