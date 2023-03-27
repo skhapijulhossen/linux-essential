@@ -1,4 +1,4 @@
-# Update SYtem
+# Update System
     sudo apt-get update
 # Setup prerequisite
     sudo apt-get install software-properties-common
