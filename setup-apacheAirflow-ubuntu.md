@@ -1,6 +1,6 @@
 # Update SYtem
     sudo apt-get update
-# Steup prerequisite
+# Setup prerequisite
     sudo apt-get install software-properties-common
     sudo apt-add-repository universe
 # Install Essential
